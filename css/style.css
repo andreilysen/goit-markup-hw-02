@@ -1,0 +1,50 @@
+:root {
+    --title-text-color: #212121;
+    --main-text-color: #757575;
+    --accent-color:  #2196F3;
+    --main-white-color: #FFFFFF;
+}
+body {
+    font-family: Roboto;
+
+    background-color: var(--main-white-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Навигация*/
+
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--title-text-color);
+
+    letter-spacing: 0.03em;
+}
+.start-logo {
+    color: var(--accent-color);
+}
+
+.nav-page {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--title-text-color);
+}
+.nav-page:hover,
+.nav-page:focus {
+    color: var(--accent-color);
+}
+
+.gray {
+    color: var(--main-text-color);
+}
