@@ -45,6 +45,10 @@ li {
     color: var(--accent-color);
 }
 
-.gray {
+.contact {
     color: var(--main-text-color);
+}
+
+.hero{
+    background-color:  #2F303A;
 }
