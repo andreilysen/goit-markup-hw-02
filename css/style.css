@@ -73,6 +73,7 @@ button {
     font-size: 44px;
     line-height: 60px;
     text-align: center;
+    text-transform: uppercase;
 
     color: var(--main-white-color);
 }
@@ -105,6 +106,7 @@ button {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 
     color: var(--title-text-color);
     
